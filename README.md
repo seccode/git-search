@@ -13,3 +13,4 @@ The expected output from this tool is:
 ```
 <SEARCH_STRING> [added/removed] in Commit: <COMMIT_ID>, File: <FILENAME>, Line: <LINE_NUMBER>
 ```
+The tool can find multiple instances of the search string found
