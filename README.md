@@ -2,9 +2,9 @@ Git Searcher is a command line utility to search git commits for either an added
 
 # Example usage
 ```
-python search.py --repo=MyRepo --added="import argparse, os, subprocess"
+python search.py --repo=path/to/repo --added="import argparse, os, subprocess"
 ```
 
 ```
-python search.py --repo=MyRepo --removed="from tqdm import tqdm"
+python search.py --repo=path/to/repo --removed="from tqdm import tqdm"
 ```
