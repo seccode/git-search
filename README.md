@@ -14,3 +14,5 @@ The expected output from this tool is:
 <SEARCH_STRING> [added/removed] in Commit: <COMMIT_ID>, File: <FILENAME>, Line: <LINE_NUMBER>
 ```
 The tool can find multiple instances of the search string found
+
+This functionality is theoretically possible with `git log -S` but I found a bug in that command where it wasn't finding every instance of the search string
